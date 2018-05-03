@@ -1,9 +1,11 @@
 {
   "name": "amphtml-validator-extra",
   "version": "0.1.0",
-  "description": "",
+  "description": "Enhanced package of amphtml-validator.",
   "keywords": [
-    "AMP"
+    "AMP",
+    "AMP HTML",
+    "Accelerated Mobile Pages"
   ],
   "author": "kmrk",
   "license": "MIT",
@@ -12,7 +14,8 @@
     "test": "jest"
   },
   "jest": {
-    "verbose": true
+    "verbose": true,
+    "testRegex": "\\.test\\.js$"
   },
   "dependencies": {
     "amphtml-validator": "^1.0.23",

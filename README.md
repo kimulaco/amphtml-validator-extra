@@ -1,4 +1,4 @@
-# amphtml-validator-extra(Beta Version)
+# amphtml-validator-extra
 
 Enhanced package of [amphtml-validator](https://www.npmjs.com/package/amphtml-validator).
 
@@ -23,7 +23,8 @@ amphtmlValidator.validateUrl(urls).then((result) => {
     // [
     //   status: 'FAIL',
     //   errors: [...]
-    // ]
+    // ],
+    // ...
 });
 ```
 
@@ -136,4 +137,4 @@ amphtmlValidator.validateUrl(urls, option).then((result) => {
 
 ## Lisence
 
-[MIT Lisence]()
+[MIT Lisence](https://github.com/kmrk/amphtml-validator-extra/blob/master/LICENSE)
