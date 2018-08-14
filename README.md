@@ -40,7 +40,7 @@ amphtmlValidator.validateHtml('<html amp>...</html>').then((result) => {
 
 |Argment|Type|Description|
 |:-|:-|:-|
-|html|string|AMP HTML sourde|
+|html|`string`|AMP HTML sourde|
 
 ### validateUrl
 
@@ -57,8 +57,10 @@ amphtmlValidator.validateUrl(urls).then((result) => {
 ```
 |Argment|Type|Description|
 |:-|:-|:-|
-|urls|array or string|AMP Page URL.|
-|option.progress|function|Progress callback function.|
+|urls|`array` or `string`|AMP Page URL.|
+|option.auth.user|`string`|Basic auth user name.|
+|option.auth.password|`string`|Basic auth password.|
+|option.progress|`function`|Progress callback function.|
 
 ### validateFile
 
@@ -76,8 +78,8 @@ amphtmlValidator.validateFile(urls).then((result) => {
 
 |Argment|Type|Description|
 |:-|:-|:-|
-|urls|array or string|AMP Page URL.|
-|option.progress|function|Progress callback function.|
+|urls|`array` or `string`|AMP Page URL.|
+|option.progress|`function`|Progress callback function.|
 
 ## Option
 
@@ -107,9 +109,7 @@ amphtmlValidator.validateUrl(urls, option).then((result) => {
 });
 ```
 
-### basic
-
-Basic auth.
+### auth
 
 ```js
 let urls = [
@@ -117,23 +117,16 @@ let urls = [
     'https://example.com/auth/article-02.html?amp',
     'https://example.com/auth/article-03.html?amp'
 ];
-let option = {
-    basic: {
-        user: 'username',
-        password: 'username'
-    }
-};
 
-amphtmlValidator.validateUrl(urls, option).then((result) => {
+amphtmlValidator.validateUrl(urls, {
+    auth: {
+        user: 'username',
+        password: 'password'
+    }
+}).then((result) => {
     console.log(result);
 });
 ```
-
-## Futureed
-
-- Basic Auth
-- File path format
-- amphtml-validator instance
 
 ## Lisence
 
