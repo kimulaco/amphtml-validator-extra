@@ -1,6 +1,6 @@
 {
   "name": "amphtml-validator-extra",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Enhanced package of amphtml-validator.",
   "keywords": [
     "AMP",
@@ -9,7 +9,7 @@
   ],
   "author": "kmrk",
   "license": "MIT",
-  "main": "index.js",
+  "main": "lib/amphtml-validator-extra.js",
   "scripts": {
     "test": "jest"
   },
