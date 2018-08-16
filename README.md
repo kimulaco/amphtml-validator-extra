@@ -16,16 +16,16 @@ const urls = [
 
 amphtmlValidator.validateUrl(urls).then((result) => {
     console.log(result);
-    // [
-    //   status: 'PASS'
-    //   errors: [...]
-    // ],
-    // [
-    //   status: 'FAIL',
-    //   errors: [...]
-    // ],
-    // ...
 });
+// [
+//   status: 'PASS'
+//   errors: [...]
+// ],
+// [
+//   status: 'FAIL',
+//   errors: [...]
+// ],
+// ...
 ```
 
 ## Methods
@@ -101,12 +101,12 @@ let option = {
 
 amphtmlValidator.validateUrl(urls, option).then((result) => {
     console.log(result);
-    /*
-     * 1 / 3
-     * 2 / 3
-     * 3 / 3
-     */
 });
+/*
+ * 1 / 3
+ * 2 / 3
+ * 3 / 3
+ */
 ```
 
 ### auth
