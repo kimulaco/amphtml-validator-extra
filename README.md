@@ -7,7 +7,7 @@ It is possible to designate multiple URLs and file paths and verify them all tog
 ## Use
 
 ```js
-const amphtmlValidator = require('./amphtml-validator-extra.js');
+const amphtmlValidator = require('amphtml-validator');
 const urls = [
     'https://example.com/article-01.html?amp',
     'https://example.com/article-02.html?amp',
