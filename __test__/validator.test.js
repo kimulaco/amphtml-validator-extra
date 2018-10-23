@@ -1,4 +1,4 @@
-const amphtmlValidator = require('../lib/amphtml-validator-extra');
+const amphtmlValidator = require('amphtml-validator-extra');
 const urls = [
     'https://www.ampproject.org/learn/overview/',
     'https://www.ampproject.org/docs/reference/components',
