@@ -1,13 +1,13 @@
 {
   "name": "amphtml-validator-extra",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Enhanced package of amphtml-validator.",
   "keywords": [
     "AMP",
     "AMP HTML",
     "Accelerated Mobile Pages"
   ],
-  "author": "kmrk",
+  "author": "kimulaco",
   "license": "MIT",
   "main": "lib/amphtml-validator-extra.js",
   "scripts": {

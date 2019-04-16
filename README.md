@@ -130,4 +130,4 @@ amphtmlValidator.validateUrl(urls, {
 
 ## Lisence
 
-[MIT Lisence](https://github.com/kmrk/amphtml-validator-extra/blob/master/LICENSE)
+[MIT Lisence](https://github.com/kimulaco/amphtml-validator-extra/blob/master/LICENSE)
